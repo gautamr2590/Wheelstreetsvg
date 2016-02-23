@@ -2,6 +2,15 @@ body {
   background-color: skyblue;
 }
 
+h1 {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 2.4em;
+  font-weight: 200;
+  letter-spacing: .07em;
+  color: white;
+}
+
 .frame {
     height: 3000px;
 }

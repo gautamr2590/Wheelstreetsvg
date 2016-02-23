@@ -12,10 +12,12 @@ $(document).ready(function() {
     var $offsetUnit = $percentageComplete * ($newUnit / 100);
 
     $("path").css("stroke-dashoffset", $newUnit - $offsetUnit);
-   	if ($percentageComplete == 100) {
-   		 $(".deadpool").css("fill", "#DC1313");
-   		} else {
-   			 $(".deadpool").css("fill", "transparent");
-   		}
+
+//To enable Fill
+   	// if ($percentageComplete == 100) {
+   	// 	 $(".ironman").css("fill", "#DC1313");
+   	// 	} else {
+   	// 		 $(".ironman").css("fill", "transparent");
+   	// 	}
   });
 });
